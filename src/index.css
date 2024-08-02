@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.row{
+    @apply flex flex-wrap
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
